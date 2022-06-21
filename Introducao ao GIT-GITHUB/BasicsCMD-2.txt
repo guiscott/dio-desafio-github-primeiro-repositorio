@@ -1,10 +1,8 @@
-Conflitos mo GITHub
+Anotações adicionais
 
-1- Conflito de juntar os códigos: ao editar o mesmo código junto com outra pessoa, pode ocorrer alguma divergencia em alguma parte do código, o que vai acabar gerando um conflito entre o mesmo arquivo. Se o github reconhecer que o código editado pela outra pessoa é mais recente do que o seu, o github irá solicitar para que voce busque o código finalizado pela outra pessoa para que voce possa continuar dando andamento a este código.
+Outros Comandos:
 
-git add * para mover o arquivo modificado para a área staged
-git commit -m "" para criar dar a definição dessa commit
-git push origin master para empurrar o código para o github
-git pull origin master para puxar a versão mais recente do código para ajustá-la
-git clone para baixar códigos diretamente do github
-ls -a para listar repositórios ocultos
+- git push origin master para empurrar o código para o github
+- git pull origin master para puxar a versão mais recente do código para ajustá-la
+- git clone para baixar códigos diretamente do github
+- ls -a para listar repositórios ocultos
