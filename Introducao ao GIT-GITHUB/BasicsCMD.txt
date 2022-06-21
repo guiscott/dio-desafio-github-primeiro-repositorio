@@ -1,0 +1,39 @@
+Comandos básicos do Prompt de Comando - Windows
+
+- cd 'e o nome do diretório': change directory: mudar de diretórios
+- cd '..': voltar para diretórios anteriores
+- dir: listar pastas
+- mkdir: criar diretórios (PASTAS)
+- del / rmdir (del: deletar apenas arquivos dentro de diretórios; rmdir: deletar diretórios inteiros.)
+- echo: joga a string/comando de volta na tela
+- mv: mover arquivos
+- git add NomeArquivo
+- git add *: move todos os arquivos para a staged area
+- git add .
+- git commit -m + mensagem: cria a commit e introduz a respectiva mensagem
+
+Objetos do GIT
+
+- blobs = armazenam metadados dentro do GIT (armazena o sha1 do arquivo e não o nome dele)
+- trees 'árvores' = armazenam blobs (responsável por montar toda a estrutura de onde está determinado arquivo) e podem apontar para blobs ou para outras trees
+- commits
+
+git init = iniciar repositórios do GIT
+git add = mover arquivos e dar início ao versionamento
+git commit = criação de commits
+
+Tracked e Untracked
+
+Arquivos Untracked são arquivos recém adicionados/criados e que não foram feitas basicamente nenhum tipo de alteração ("arquivos virgens")
+Passam a se tornar Arquivos Tracked a partir de sua primeira alteração
+
+COMANDO: GIT STATUS
+
+Arquivo Unmodified: arquivo que não sofreu modificações;
+Arquivo Modified: arquivo unmodified que sofreu modificações (o GIT reconhece que o arquivo sofreu modificações no momento em que verifica o seu sha1 - criptografia do arquivo);
+Arquivo Staged: após o arquivo sofrer qualquer modificação, ele se torna modified, mas quando ele está sofrendo uma série de modificações quer dizer que ele está sendo preparado para ser introduzido ao sistema, neste momento ele se torna um arquivo staged, que está sendo preparado para uma função.
+Após o Staged, o arquivo é adicionado a uma Commit e ele passa a ser novamente um arquivo Unmodified, até que sofra novamente modificações e repita o ciclo.
+
+Servidor: Remote repository
+Ambiente de desenvolvimento: working directory, staging area e local repository.
+
