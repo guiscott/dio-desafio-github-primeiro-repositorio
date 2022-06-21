@@ -6,3 +6,4 @@ Outros Comandos:
 - git pull origin master para puxar a versão mais recente do código para ajustá-la
 - git clone para baixar códigos diretamente do github
 - ls -a para listar repositórios ocultos
+- git pull: sincronizar repositório local com as alterações que foram realizadas diretamente no GITHUB
